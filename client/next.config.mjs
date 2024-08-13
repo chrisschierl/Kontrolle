@@ -13,6 +13,10 @@ const nextConfig = {
       't4.ftcdn.net',
     ],
   },
+  env: {
+    NEXT_PUBLIC_CLIENT_URL: 'http://52.57.196.56:3000',
+    NEXT_PUBLIC_SERVER_URL: 'http://52.57.196.56:5000',
+  },
 };
 
 export default nextConfig;
